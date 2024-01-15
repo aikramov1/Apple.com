@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.navbar{
+    width: 100%;
+    height: 44px;
+    background: #444;
+}
+.nav__collection{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 60%;
+    height: 100%;
+    margin: auto;
+    color: #ddd;
+    list-style: none;
+}
+.nav__items span{
+    font-size: 12px;
+}
+.banner{
+    width: 100%;
+    height: 700px;
+    text-align: center;
+    padding-top: 50px;
+   
+}
+.banner h1{
+    font-size: 50px;
+}
+.banner p{
+    font-size: 24px;
+    padding: 10px 0;
+}
+.banner a{
+    font-size: 18px;
+    color: dodgerblue;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 14px;
+}
+.banner a span{
+    font-size: 16px;
+}
+.apple__icon{
+    background: url("./img/icon.jpg") no-repeat center/cover;
+    padding-top: 450px;
+}
+.apple__watch{
+    background: url("./img/hand.jpg") no-repeat center/cover;
+    color: #fff;
+    padding-top: 500px;
+}
+.apple__phone{
+    background: url("./img/iphone.jpg") no-repeat center/cover;
+    color: #fff;
+}
+.wrapper{
+    display: flex;
+    flex-wrap: wrap;
+}
+.box{
+    width: 50%;
+    height: 550px;
+  
+    text-align: center;
+    padding-top: 30px;
+}
+.box a{
+    color: dodgerblue;
+    
+}
+.box a span{
+    list-style: none;
+    gap: 5px;
+}
+
+.box__iphone{
+    background: url("./img/iphone15blue.jpg") no-repeat center/cover;
+  
+}
+.box__macbook{
+    background: url("./img/macbook.jpg") no-repeat center/cover;
+   
+}
+.box__iwatch{
+    background: url("./img/watchultra.jpg") no-repeat center/cover;
+}
+.box__airpods{
+    background: url("./img/airpods.jpg") no-repeat center/cover;
+    color: #fff;
+}
+.box__card{
+    background: url("./img/card.jpg") no-repeat center/cover;
+}
+.box__tradein{
+    background: url("./img/tradein.png") no-repeat center/cover;
+}
+.footer{
+    width: 80%;
+    height: 400px;
+    margin: auto;
+   
+    display: flex;
+    padding-top: 30px;
+    padding-left: 50px;
+    gap: 60px;
+    border-top: 1px solid grey;
+    border-bottom: 1px solid grey;
+    line-height: 1.3;
+}
+.footer__collection{
+    list-style: none;
+    color: rgba(196, 176, 176, 0.921);
+}
+.footer__collection p{
+    font-size: 18px;
+    color: #333;
+}
+
+
+
